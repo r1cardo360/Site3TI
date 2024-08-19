@@ -1,5 +1,90 @@
+
+@font-face{
+    font-family:'Sora-Medium';
+    src: url(./fonts/Sora-Medium.ttf) format('woff2'),
+    url(./fonts/Sora-Medium.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Inter-ExtraBold';
+    src: url(./fonts/Inter-ExtraBold.ttf) format('woff2'),
+    url(./fonts/Inter-ExtraBold.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Inter-Light';
+    src: url(./fonts/Inter-Light.ttf) format('woff2'),
+    url(./fonts/Inter-Light.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Sora-Extra-Bold';
+    src: url(./fonts/Sora-ExtraBold.ttf) format('woff2'),
+    url(./fonts/Sora-ExtraBold.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Sora-Bold';
+    src: url(./fonts/Sora-Bold.ttf) format('woff2'),
+    url(./fonts/Sora-Bold.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Sora-Medium', Arial, Helvetica, sans-serif !important;
+}
+
+nav{
+    padding: 8px 0;
+}
+
+.container-navbar{
+    margin: 0 82px;
+    padding: 0 12px;
+}
+
+.navbar-brand{
+    padding: 10px 0;
+    margin-right: 16px;
+}
+
+.navbar-links{
+    margin-left: 100px;
+}
+
 .navbar-nav a{
     color: white;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.nav-phone{
+    text-align: center;
+    margin: 0,5rem;
+}
+
+.nav-phone p{
+    font-family:'Inter-ExtraBold';
+    font-size: 16px !important;
+}
+
+.nav-phone small{
+    font-family: 'Inter-Light';
+    font-size: 10px !important;
 }
 
 .phone-text{
@@ -15,4 +100,56 @@
     position: absolute;
     top: 15%;
     color: white;
+}
+
+.text-initial span h2 strong{
+    font-family:'Sora-Extra-Bold' !important;
+    font-size: 3rem;
+    line-height: 2.7rem;
+}
+
+.text-initial div p{
+    font-family: 'Inter-Light' !important;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    line-height: 2rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+}
+
+.text-initial div a{
+    font-family: 'Sora-Bold' !important;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    border-radius: 10px; 
+}
+
+.text-initial div a i{
+    padding-right: 5px;
+}
+
+.text-initial div a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Main*/
+
+.pt{
+    padding-top: 3rem !important;
+    font-size: 22px;
+    color: black;
+}
+
+.marcador{
+    width: 60px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #007DC6;
+    border: none;
+    cursor: default;
+    margin-bottom: 2rem;
 }

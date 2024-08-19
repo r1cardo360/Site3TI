@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <!--Slicker Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
     <title>3TI SOFTWARE</title>
 </head>
 <body>
     <!--Cabeçalho da página (Barra de Navegação)-->
-    <nav class="navbar navbar-light fixed-top">
-        <div class="container navbar-expand-sm">
-            <img class="img-fluid" src="./assets/logo3TiBranca.png" alt="">
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+        <div class="container navbar-expand-sm container-navbar">
+            <a class="navbar-brand"> <img src="./assets/logo3TiBranca.png" alt="Banner-Do-Site"></a>
+            <div class="collapse navbar-collapse navbar-links">
+                <div class="navbar-nav navbar-link">
                     <a href="#" class="nav-link">Home</a>
                     <a href="#" class="nav-link">Fale Conosco</a>
                     <a href="#" class="nav-link">Área do Cliente</a>
                 </div>
             </div>
-            <span>
+            <span class="nav-phone">
                 <p class="phone-text"><strong>(16)99636-3464</strong></p>
                 <small class="phone-text">Central de Vendas</small>
             </span>
@@ -28,8 +33,9 @@
 
     <!--Conteudo Principal da página-->
     <main>
+        <!--Container Principal/Banner-->
         <div>
-            <img src="./assets/Banner_Principal.jpg" alt="">
+            <img class="img-fluid" src="./assets/Banner_Principal.jpg" alt="">
             <div class="text-initial">
                 <span>
                     <h2><strong>Soluções pensadas especialmente para sua empresa.</strong></h2>
@@ -37,11 +43,22 @@
                 <div>
                     <p>Conheça todas as vantagens que as ferramentas Platinium trazem para seu negócio, 
                         com grande poder de gerenciamento, falicidade e agilidade que você precisa.</p>
-
+                    <a href="#" type="button"><i class="bi bi-phone"></i>Ligamos para Você</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--Container Produtos 3Ti-->
+        <div class="container container-Produtos text-center">
+            <h5 class="pt">PRODUTOS 3TI</h5>
+            <button class="marcador"></button>
+            <div class="carroselimg">
+                <div class="carousel">
                     
                 </div>
             </div>
         </div>
+
     </main>
 
     <!--Rodapé da Página-->
@@ -49,5 +66,10 @@
 
     </footer>
 
+
+    <!--script Slicker Carousel-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
