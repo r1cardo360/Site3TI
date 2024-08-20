@@ -153,3 +153,12 @@ nav{
     cursor: default;
     margin-bottom: 2rem;
 }
+
+.card{
+    margin: 20px;
+    width: 234px !important;
+}
+
+.card-img-top{
+    width: 100%;
+}

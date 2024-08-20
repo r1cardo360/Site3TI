@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.my-carousel').slick({
+    $('.slick-carousel').slick({
         dots: true, // Adiciona pontos de navegação
         infinite: false, // Permite loop infinito
         speed: 0, // Velocidade de transição
