@@ -265,3 +265,13 @@ nav{
     color: #FFF;
     position: relative;
 }
+
+.empresa h5{
+    position: absolute;
+    font-family: 'Sora-Extra-Bold' !important;
+    font-size: 75px;
+    margin-bottom: 0;
+    text-align: left;
+    bottom: 5rem;
+    left: 40%;
+}
