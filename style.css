@@ -177,3 +177,71 @@ nav{
     color: #6898b4;
 }
 
+
+#segmentos{
+    margin-top: 20px;
+    max-width: 1300px;
+}
+
+#segmentos .card i{
+    margin: 20px;
+    margin-top: 50px;
+    color: #007DC6;
+    background-color: #fff;
+}
+
+#segmentos .card{
+    margin: 20px !important;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+#segmentos .card:hover,#segmentos .card:hover i,#segmentos .card:hover h5,#segmentos .card:hover p{
+    background-color: #007DC6;   
+    color:#FFF; 
+    cursor: pointer;
+}
+
+#segmentos .card:hover img{
+    filter:  brightness(0) invert(1);
+    
+}
+
+#segmentos .card{
+    margin: 5px;
+    min-height:200px;
+}
+
+#segmentos .card svg{
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+#segmentos * {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+
+
+#segmentos img{
+    width: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#segmentos h5{
+    font-size: 22px;
+    color: #000;
+}
+
+#segmentos p{
+    font-family:"Inter-Light" !important;
+    font-size: 15px;
+    color: #666;
+}
+
+
