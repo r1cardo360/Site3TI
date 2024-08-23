@@ -244,4 +244,24 @@ nav{
     color: #666;
 }
 
+/*Rodapé*/
 
+.baner-rodape{
+    padding: 0;
+    text-align: center;
+}
+
+.baner-erp div{
+    position: relative;
+}
+
+.bg-emp{
+    object-fit: cover;
+    background: black;
+    -webkit-mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 100%) !important;
+    min-height: 500px;
+    background-position: center top;
+    background-size: 100% auto;
+    color: #FFF;
+    position: relative;
+}

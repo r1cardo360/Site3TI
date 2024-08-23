@@ -66,3 +66,8 @@ $('.slick-carousel-produtos').slick({
       }
     ]
   });
+
+
+  $(document).ready(function() {
+    $('.baaner-erp').paroller();
+});
