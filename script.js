@@ -1,9 +1,10 @@
-$('.slick-carousel').slick({
+$('.slick-carousel-produtos').slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 600,
     slidesToShow: 4,
     slidesToScroll: 1,
+    arrows:false,
     responsive: [
       {
         breakpoint: 1024,
@@ -28,8 +29,5 @@ $('.slick-carousel').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
