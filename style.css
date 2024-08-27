@@ -44,6 +44,15 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family:'Inner-Regular';
+    src: url(./fonts/Inter-Regular.ttf) format('woff2'),
+    url(./fonts/Inter-Regular.ttf) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     font-family: 'Sora-Medium', Arial, Helvetica, sans-serif !important;
 }
@@ -142,7 +151,6 @@ nav{
 .pt{
     padding-top: 3rem !important;
     font-size: 22px;
-    color: black;
 }
 
 .marcador{
@@ -274,4 +282,46 @@ nav{
     text-align: left;
     bottom: 5rem;
     left: 40%;
+}
+
+.empresa p{
+    position: absolute;
+    font-family: 'Inner-Regular' !important;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: left;
+    bottom: 1rem;
+    left: 40%;
+}
+
+.contatowpp{
+    height: 120px;
+    background-color: #007DC6;
+    color: #FFF;
+    position: relative;
+}
+
+.contatowpp .container{
+    position: relative;
+    text-align: left;
+}
+
+.contatowpp p{
+    padding-top: 36px;
+    font-family: 'Inter-Light' !important;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.contatowpp h5{
+    font-family: 'Sora-Bold' !important;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.contatowpp img{
+    position: absolute;
+    right: 5px;
+    top: 36px;
+    cursor: pointer;
 }
